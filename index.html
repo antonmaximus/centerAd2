@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Center Cisco</title>
+  <meta name="viewport" content="initial-scale=1">
+
+
+
+<!-- for Google -->
+<!-- <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+<meta name="keywords" content="Lorem ipsum" /> -->
+
+<!-- <meta name="author" content="Lorem ipsum" />
+<meta name="copyright" content="2015" />
+<meta name="application-name" content="Lorem ipsum" /> -->
+
+<!-- for Facebook -->          
+<!-- <meta property="og:title" content="Lorem ipsum" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="https://i.imgur.com/kSdTxMh.jpg" />
+<meta property="og:url" content="" />
+<meta property="og:description" content="Lorem ipsum dolor sit amet" />
+ -->
+<!-- for Twitter -->          
+<!-- <meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Lorem ipsum" />
+<meta name="twitter:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+<meta name="twitter:image" content="https://i.imgur.com/kSdTxMh.jpg" /> -->
+
+
+
+<meta name="fb:app_id" content="279915592145003"  />
+<meta name="ioContentSource" content="WEM"  />
+<meta name="concept" content="HomePages"  />
+<meta name="docType" content="Realm Passthrough Page"  />
+<meta name="iaPath" content="cisco.com#Home Pages"  />
+<meta name="contentType" content="cisco.com#US#preSales"  />
+<meta name="locale" content="US"  />
+<meta name="language" content="en"  />
+<meta name="country" content="US"  />
+<meta name="date" content="Thu Sep 24 12:36:57 PDT 2015"  />
+<meta name="accessLevel" content="Customer"  />
+<meta name="accessLevel" content="Guest"  />
+<meta name="accessLevel" content="Partner"  />
+<meta name="entitlementExpression" content="contains( &quot;0,1,2,3,4,7&quot; , $profileField[3] )"  />
+<meta property="og:site_name" content="Cisco"  />
+<meta property="og:image" content="http://www.cisco.com/web/fw/i/logo-open-graph.gif"  />
+<meta property="og:type" content="website"  />
+<meta property="og:title" content="Cisco UCS - Data Center – Unified Computing Systems - Welcome to Cisco"  />
+<meta property="og:description" content="Cisco’s Unified Computing System (UCS) offers data center performance anywhere, with faster information at the source, delivering more-immediate services."  />
+<meta property="og:url" content="http://cisco.com/c/r/en/us/internet-of-everything-ioe/data-center/vision/index.html"  />
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8"  />
+<meta name="description" content="Cisco’s Unified Computing System (UCS) offers data center performance anywhere, with faster information at the source, delivering more-immediate services."  />
+<meta name="title" content="Cisco UCS - Data Center – Unified Computing Systems - Welcome to Cisco"  />
+<meta name="entitlement" content="guest">
+<meta property="og:image" content="http://www.cisco.com/c/dam/r/en/us/internet-of-everything-ioe/iac/assets/images/data-center/share-fb-google.jpg" />
+
+    
+
+</head>
+
+<style>
+iframe, body {
+	margin: 0;
+	padding: 0;
+}
+
+iframe {
+	display: block;
+	margin: auto;
+}
+
+body {
+	background-color: #000;
+}
+
+</style>
+
+<script>
+
+
+function callMe() {
+	var iObj = document.querySelector('IFRAME');
+	var body = document.querySelector('body');
+
+	function centerCisco(event) {
+
+		if (orientationEvent == "resize") {
+			var locateY = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)/2 - iObj.getBoundingClientRect().height/2;
+
+			if(locateY <= 0) {
+				iObj.style.cssText = ";transform: translateY(" + 0 + "px);";
+				document.body.scrollTop = Math.abs(locateY);
+			} else {
+				iObj.style.cssText = ";transform: translateY(" + locateY + "px);";
+			}
+
+		} else {
+			window.setTimeout(function() {
+				var locateY = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)/2 - iObj.getBoundingClientRect().height/2;
+
+				if(locateY <= 0) {
+					iObj.style.cssText = ";transform: translateY(" + 0 + "px);";
+					document.body.scrollTop = Math.abs(locateY);
+				} else {
+					iObj.style.cssText = ";transform: translateY(" + locateY + "px);";
+				}
+			}, 300);
+		}
+
+
+	}
+
+
+	var supportsOrientationChange = "onorientationchange" in window,
+    	orientationEvent = supportsOrientationChange ? "orientationchange" : "resize";
+
+	window.addEventListener(orientationEvent, centerCisco, false);
+
+	centerCisco();
+
+}
+
+
+window.onload = callMe;
+
+
+
+
+</script>
+
+<body>
+
+
+
+<IFRAME SRC="https://ad.doubleclick.net/ddm/adi/N7442.126579RESOLUTIONMEDIA/B8892702.122463894;sz=320x480;ord=[timestamp]?" WIDTH=320 HEIGHT=480 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR='#000000'>
+<SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/N7442.126579RESOLUTIONMEDIA/B8892702.122463894;abr=!ie;sz=320x480;ord=[timestamp]?">
+</SCRIPT>
+<NOSCRIPT>
+<A HREF="https://ad.doubleclick.net/ddm/jump/N7442.126579RESOLUTIONMEDIA/B8892702.122463894;abr=!ie4;abr=!ie5;sz=320x480;ord=[timestamp]?">
+<IMG SRC="https://ad.doubleclick.net/ddm/ad/N7442.126579RESOLUTIONMEDIA/B8892702.122463894;abr=!ie4;abr=!ie5;sz=320x480;ord=[timestamp]?" BORDER=0 WIDTH=320 HEIGHT=480 ALT="Advertisement"></A>
+</NOSCRIPT>
+
+
+
+
+
+</body>
+</html>
